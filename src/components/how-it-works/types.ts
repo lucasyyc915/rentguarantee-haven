@@ -14,37 +14,37 @@ export interface ProcessStep {
 // Updated landlord process steps with more consistent, premium colors
 export const landlordProcessSteps: ProcessStep[] = [
   {
-    title: "Get Our Offer",
-    description: "We'll provide your guaranteed rental income offer within 48 hours after property details are submitted.",
+    title: "Inquiry & Consultation",
+    description: "Contact us with your event details. We'll discuss your technical requirements, audience size, and scheduling preferences.",
     icon: ClipboardPen,
-    timeline: "Within 48 hours",
+    timeline: "Same day response",
     iconColor: "text-[var(--theme-primary)]",
     bgColor: "bg-[var(--theme-primary-light)]",
     circleColor: "bg-[var(--theme-primary)]"
   },
   {
-    title: "Sign the Agreement",
-    description: "Accept your guaranteed rental offer. Our transparent contract clearly outlines all terms with no hidden clauses.",
-    icon: FileSignature,
-    timeline: "1-2 days",
+    title: "Venue Walkthrough",
+    description: "Visit our theater for a personalized tour. See the stage, test acoustics, and meet our technical team.",
+    icon: Home,
+    timeline: "Within 2-3 days",
     iconColor: "text-[var(--theme-primary)]",
     bgColor: "bg-[var(--theme-primary-light)]",
     circleColor: "theme-accent-bg"
   },
   {
-    title: "Make Property Rent-Ready",
-    description: "Our team will inspect and handle necessary repairs and improvements to maximize your property's rental value.",
-    icon: Home,
-    timeline: "7-14 days",
+    title: "Confirm Booking",
+    description: "Choose your package and dates. Sign the rental agreement with transparent terms and included services clearly outlined.",
+    icon: FileSignature,
+    timeline: "1-2 days",
     iconColor: "text-[var(--theme-primary)]",
     bgColor: "bg-[var(--theme-primary-light)]",
     circleColor: "bg-[var(--theme-primary)]"
   },
   {
-    title: "Receive Guaranteed Rent",
-    description: "Payments are deposited directly to your account on the 5th of each month, regardless of tenant status.",
+    title: "Rehearse & Perform",
+    description: "Use your complimentary rehearsal time, then take the stage. Our technical team supports you from setup through final curtain.",
     icon: Banknote,
-    timeline: "Monthly",
+    timeline: "Your event dates",
     iconColor: "text-[var(--theme-primary)]",
     bgColor: "bg-[var(--theme-primary-light)]",
     circleColor: "theme-accent-bg"

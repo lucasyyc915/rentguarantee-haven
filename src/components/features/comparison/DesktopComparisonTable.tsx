@@ -12,125 +12,125 @@ const DesktopComparisonTable = () => {
             Features
           </div>
           <div className="bg-[#f5f0ff] py-5 px-6 font-bold text-lg text-[var(--theme-primary)] border-b border-gray-200">
-            Propico
+            Stage Center
           </div>
           <div className="bg-white py-5 px-6 font-bold text-lg border-b border-gray-200">
-            Traditional PMS
+            Other Venues
           </div>
           <div className="bg-white py-5 px-6 font-bold text-lg border-b border-gray-200">
-            Self Management
+            DIY Space Rental
           </div>
 
-          {/* Income during vacancies */}
+          {/* Venue Features */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <CreditCard className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Income during vacancies</span>
+            <span>Full technical package included</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Guaranteed full payment
+            Lighting, sound, and technical staff
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            No income
+            Equipment rental extra
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            No income
+            DIY or hire separately
           </div>
 
-          {/* Financial risk bearer */}
+          {/* Technical Support */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <Shield className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Financial risk bearer</span>
+            <span>Professional technical staff</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Propico takes all risk
+            Expert technicians included
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            Owner takes all risks
+            Basic support only
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            Owner takes all risks
+            Handle yourself
           </div>
 
-          {/* Owner time required */}
+          {/* Setup time */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <Clock className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Owner time required</span>
+            <span>Setup and coordination time</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            &lt;1 hour monthly
+            &lt;2 hours, handled by us
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            3-5 hours
+            4-6 hours
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            6-8 hours
+            8-12 hours
           </div>
 
-          {/* Property Condition */}
+          {/* Rehearsal Access */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <Home className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Property Condition</span>
+            <span>Rehearsal space access</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Propico guarantee
+            Complimentary included
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            No guarantee
+            Additional fee
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            No protection
+            Limited or none
           </div>
 
-          {/* Payment reliability */}
+          {/* Sound Quality */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <DollarSign className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Payment reliability</span>
+            <span>Sound system quality</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Fixed date, every month
+            Professional concert-grade
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            Depends on tenant
+            Standard PA system
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            Depends on tenant
+            Basic or rental
           </div>
 
-          {/* Tenant Screening */}
+          {/* Seating Capacity */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <Users className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Tenant Screening</span>
+            <span>Seating capacity</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Comprehensive
+            500 seats
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            Basic checks
+            200-300 seats
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            Limited
+            Varies
           </div>
 
-          {/* Annual net returns */}
+          {/* Overall Value */}
           <div className="bg-white py-4 px-6 flex items-center gap-3 border-b border-gray-200">
             <BarChart className="w-5 h-5 text-[#ff6b6b]" />
-            <span>Annual net returns*</span>
+            <span>Overall value per event*</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            5.4L
+            ₹2.5L all-inclusive
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            2.7L
+            ₹3.5L+ (venue + equipment)
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
-            3.1L
+            ₹4L+ (all separate)
           </div>
         </div>
       </div>
 
       {/* Footnote */}
       <p className="text-sm text-gray-600 text-center mb-12">
-        *Based on a property with 50k monthly rent. Net returns accounts for vacancies, maintenance, and time value
+        *Based on a 3-night event. Total value includes venue, equipment, and technical support
       </p>
     </>
   );

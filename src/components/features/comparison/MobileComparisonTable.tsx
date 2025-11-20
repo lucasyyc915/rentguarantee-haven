@@ -8,15 +8,15 @@ const MobileComparisonTable = () => {
     <div className="w-full">
       <Tabs defaultValue="propico" className="w-full">
         <TabsList className="grid w-full grid-cols-3 mb-4">
-          <TabsTrigger value="propico" className="font-medium">Propico</TabsTrigger>
-          <TabsTrigger value="traditional" className="font-medium">Traditional</TabsTrigger>
-          <TabsTrigger value="self" className="font-medium">Self Managed</TabsTrigger>
+          <TabsTrigger value="propico" className="font-medium">Stage Center</TabsTrigger>
+          <TabsTrigger value="traditional" className="font-medium">Other Venues</TabsTrigger>
+          <TabsTrigger value="self" className="font-medium">DIY Rental</TabsTrigger>
         </TabsList>
 
         <TabsContent value="propico">
           <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
             <div className="bg-[#f5f0ff] py-4 px-4 font-bold text-lg text-[var(--theme-primary)] text-center border-b border-gray-200">
-              Propico
+              Stage Center
             </div>
             <div className="divide-y divide-gray-200">
               <MobileFeatureRow 
@@ -68,7 +68,7 @@ const MobileComparisonTable = () => {
         <TabsContent value="traditional">
           <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
             <div className="bg-white py-4 px-4 font-bold text-lg text-center border-b border-gray-200">
-              Traditional PMS
+              Other Venues
             </div>
             <div className="divide-y divide-gray-200">
               <MobileFeatureRow 
@@ -120,7 +120,7 @@ const MobileComparisonTable = () => {
         <TabsContent value="self">
           <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
             <div className="bg-white py-4 px-4 font-bold text-lg text-center border-b border-gray-200">
-              Self Management
+              DIY Space Rental
             </div>
             <div className="divide-y divide-gray-200">
               <MobileFeatureRow 
@@ -172,7 +172,7 @@ const MobileComparisonTable = () => {
 
       {/* Footnote */}
       <p className="text-sm text-gray-600 text-center mt-4 mb-12">
-        *Based on a property with 50k monthly rent. Net returns accounts for vacancies, maintenance, and time value
+        *Based on a 3-night event. Total value includes venue, equipment, and technical support
       </p>
     </div>
   );

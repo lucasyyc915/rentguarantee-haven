@@ -10,18 +10,18 @@ const ValuePropositions = memo(() => (
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-24 mb-6">
     <ValueCard 
       icon={<Building size={22} className="theme-accent-text" />}
-      title="Property Management"
-      description="Full-service property management delivering upto 40% higher net rental returns"
+      title="500-Seat Theater"
+      description="State-of-the-art auditorium with professional acoustics and sightlines"
     />
     <ValueCard 
       icon={<Shield size={22} className="theme-accent-text" />}
-      title="Risk-Free Income"
-      description="100% assured timely rent payment, guaranteed even during vacancies"
+      title="Full Technical Support"
+      description="Expert lighting, sound, and stage technicians included with every rental"
     />
     <ValueCard 
       icon={<Clock size={22} className="theme-accent-text" />}
-      title="Time-Saving"
-      description="We handle everything while you focus on what matters most to you"
+      title="Flexible Scheduling"
+      description="Rehearsal space access and customizable booking packages available"
     />
   </div>
 ));
@@ -43,16 +43,16 @@ const NotificationCard = memo(() => (
     <CardContent className="p-0">
       <div className="bg-[var(--theme-primary)] px-3 py-1.5 flex items-center">
         <MessageSquare size={14} className="text-white mr-1.5" />
-        <p className="text-white text-xs font-medium">Propico</p>
+        <p className="text-white text-xs font-medium">Stage Center</p>
       </div>
       
       <div className="p-3">
         <div className="bg-white rounded-lg p-2.5 shadow-sm border-l-3 border-[var(--theme-accent)]">
-          <p className="text-xs text-gray-800 font-medium">Good news!</p>
-          <p className="text-base font-bold text-[var(--theme-accent)]">₹50,000<span className="text-xs font-medium">/month</span></p>
+          <p className="text-xs text-gray-800 font-medium">Venue Booked!</p>
+          <p className="text-base font-bold text-[var(--theme-accent)]">March 15-17</p>
           <div className="flex items-center mt-1 text-xs text-gray-600">
             <Clock size={10} className="mr-1 text-[var(--theme-primary)]" />
-            <p className="text-[10px]">Guaranteed rent starting in 21 days</p>
+            <p className="text-[10px]">Your event confirmed with full tech support</p>
           </div>
         </div>
         <div className="mt-1.5 flex justify-end">
@@ -96,16 +96,16 @@ const Hero = () => {
           <div className={`space-y-6 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             <div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight theme-primary-text">
-                Guaranteed Rent. Every Month. No Exceptions
+                Your Stage.<br />Our Expertise.
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mt-4">
-                Turn uncertainty into predictable income, regardless of vacancies or tenant issues
+                Professional theater with complete technical support for your performances
               </p>
               <div className="h-1 w-20 my-4 bg-[var(--theme-accent)] rounded-full opacity-80"></div>
             </div>
             
             <p className="text-lg text-gray-600 max-w-lg">
-              We take on the risk so you don't have to. Guaranteed fixed monthly payments on time, every time
+              From rehearsal to showtime, we handle everything. Focus on your art while we manage the technical details.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-1">
@@ -115,7 +115,7 @@ const Hero = () => {
                 variant="default"
                 onClick={scrollToPropertyForm}
               >
-                Get Started
+                Book the Venue
                 <ArrowRight size={18} className="ml-2 transition-transform group-hover:translate-x-1" />
               </Button>
               
@@ -125,7 +125,7 @@ const Hero = () => {
                   size="lg"
                   variant="secondary"
                 >
-                  Get Your Rent Estimate
+                  View Pricing
                   <Calculator size={18} className="ml-2" />
                 </Button>
               </Link>

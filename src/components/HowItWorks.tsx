@@ -19,10 +19,10 @@ const HowItWorks = () => {
 
   return (
     <HowItWorksContent
-      title="How It Works For Landlords"
-      subtitle="Our simple process turns your property into a hassle-free income stream in just four easy steps."
+      title="How Venue Booking Works"
+      subtitle="Our streamlined process gets you from inquiry to opening night in four simple steps."
       steps={landlordProcessSteps}
-      ctaText="List Your Property"
+      ctaText="Book the Venue"
       ctaLink=""
       onCtaClick={scrollToPropertyForm}
     />

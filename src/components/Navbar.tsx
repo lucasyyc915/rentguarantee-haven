@@ -42,18 +42,18 @@ const Navbar = () => {
         <Link to="/" className="flex items-center text-2xl font-bold theme-primary-text gap-1">
           <img 
             src="/lovable-uploads/7b314dd5-c766-4046-8e2f-02a35e9e67c2.png" 
-            alt="Propico Logo" 
+            alt="Stage Center Logo" 
             className="h-8 w-12"
           />
-          Propico
+          Stage Center
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">
-          <NavLink to="/#guarantee" onClick={() => scrollToSection('triple-guarantee')}>Our Guarantee</NavLink>
+          <NavLink to="/#guarantee" onClick={() => scrollToSection('triple-guarantee')}>Our Services</NavLink>
           <NavLink to="/#how-it-works" onClick={() => scrollToSection('how-it-works')}>How it Works</NavLink>
-          <NavLink to="/#packages" onClick={() => scrollToSection('packages')}>Pricing</NavLink>
+          <NavLink to="/#packages" onClick={() => scrollToSection('packages')}>Packages</NavLink>
           <NavLink to="/#faq" onClick={() => scrollToSection('faq')}>FAQ</NavLink>
-          <NavLink to="/tenants">For Tenants</NavLink>
+          <NavLink to="/tenants">For Performers</NavLink>
         </div>
         
         <button 
@@ -75,7 +75,7 @@ const Navbar = () => {
               setIsMobileMenuOpen(false);
             }}
           >
-            Our Guarantee
+            Our Services
           </MobileNavLink>
           <MobileNavLink 
             to="/#how-it-works" 
@@ -93,7 +93,7 @@ const Navbar = () => {
               setIsMobileMenuOpen(false);
             }}
           >
-            Pricing
+            Packages
           </MobileNavLink>
           <MobileNavLink 
             to="/#faq" 
@@ -108,7 +108,7 @@ const Navbar = () => {
             to="/tenants" 
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            For Tenants
+            For Performers
           </MobileNavLink>
         </div>
       </div>

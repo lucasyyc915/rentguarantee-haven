@@ -6,18 +6,18 @@ const GuaranteeSection = () => {
     <section id="triple-guarantee" className="py-16 theme-gradient">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 theme-primary-text">Our Four-Part Guarantee Program</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 theme-primary-text">Our Complete Service Package</h2>
           <div className="accent-line mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            We eliminate all the risks of being a landlord with our comprehensive guarantees.
+            Everything you need for a successful performance, included with every venue rental.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           <GuaranteeCard
             icon={DollarSign}
-            title="Financial Protection"
-            description="Receive your full rental payment on time, every month. Your rental income is guaranteed against property vacancy and tenant defaults, protecting your investment against financial loss."
+            title="Professional Lighting"
+            description="State-of-the-art LED lighting system with intelligent moving heads, spotlights, and full DMX control. Our lighting designer works with you to create the perfect atmosphere for your performance."
             iconColor="theme-primary-text"
             bgColor="bg-primary-light"
             borderColor="border-primary-light"
@@ -27,8 +27,8 @@ const GuaranteeSection = () => {
           
           <GuaranteeCard
             icon={Wrench}
-            title="Maintenance Excellence"
-            description="All maintenance is performed to professional standards with complete transparency, protecting your property's long-term value. You'll never need to deal with middle-of-the-night emergencies."
+            title="Premium Sound System"
+            description="Concert-grade sound system with crystal-clear acoustics throughout the auditorium. Professional audio engineer included to ensure perfect sound balance for every performance."
             iconColor="theme-primary-text"
             bgColor="bg-primary-light"
             borderColor="border-primary-light"
@@ -38,8 +38,8 @@ const GuaranteeSection = () => {
           
           <GuaranteeCard
             icon={Building}
-            title="Property Condition"
-            description="Your property will be returned to you in its original condition, accounting for normal wear and tear, or we cover the cost of restoration. Our meticulous care ensures your property remains well maintained."
+            title="Technical Support Staff"
+            description="Experienced stage technicians, lighting operators, and sound engineers on-site during your event. From setup to final curtain, our team ensures everything runs smoothly."
             iconColor="theme-primary-text"
             bgColor="bg-primary-light"
             borderColor="border-primary-light" 
@@ -49,8 +49,8 @@ const GuaranteeSection = () => {
 
           <GuaranteeCard
             icon={FileCheck}
-            title="Tenant Quality"
-            description="We are so confident that if a tenant we place causes damage or defaults, We bear the financial responsibility. Rest easy knowing we will find someone who will love your home as much as you do."
+            title="Rehearsal Space Access"
+            description="Complimentary rehearsal time included with every booking. Get familiar with the stage, test your technical requirements, and ensure your performance is ready for opening night."
             iconColor="theme-primary-text"
             bgColor="bg-primary-light"
             borderColor="border-primary-light" 
