@@ -25,12 +25,12 @@ const HiddenCostsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center theme-primary-text">
-            The Hidden Costs of Traditional Property Management
+            Why Independent Venues Struggle
           </h2>
           
           <div className="accent-line mx-auto"></div>
           <p className="mt-4 text-lg text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Every month without a tenant costs you more than just lost rent. Traditional property management leaves you vulnerable to:
+            Managing technical equipment and coordinating performances shouldn't overshadow the art. Common challenges include:
           </p>
         </div>
         
@@ -38,8 +38,8 @@ const HiddenCostsSection = () => {
           {/* Pain Point 1 */}
           <HiddenCostCard
             icon={IndianRupee}
-            title="Income Uncertainty"
-            description="Disrupts financial planning with irregular income. Properties average 43 vacant days yearly, creating budget gaps when you need consistent income most."
+            title="Equipment Costs"
+            description="Professional lighting and sound systems require significant investment. Maintenance, upgrades, and technical expertise add 30-40% to operational costs."
             iconColor="theme-accent-text"
             bgColor="bg-accent-light"
             borderColor="border-gray-200"
@@ -50,8 +50,8 @@ const HiddenCostsSection = () => {
           {/* Pain Point 2 */}
           <HiddenCostCard
             icon={Users}
-            title="Tenant Disputes"
-            description="Consumes 5-7 hours monthly handling complaints, payments, and maintenance. What should be passive income becomes an unpaid part-time job."
+            title="Technical Expertise"
+            description="Managing complex lighting rigs, sound systems, and stage equipment demands specialized knowledge. Finding and retaining skilled technicians is challenging and expensive."
             iconColor="theme-accent-text"
             bgColor="bg-accent-light"
             borderColor="border-gray-200"
@@ -62,8 +62,8 @@ const HiddenCostsSection = () => {
           {/* Pain Point 3 */}
           <HiddenCostCard
             icon={Home}
-            title="Property Damage"
-            description="Unexpected repairs can cost up to 15-20% of annual rent. Without oversight, minor issues become expensive problems that reduce property value."
+            title="Coordination Complexity"
+            description="Scheduling rehearsals, managing bookings, coordinating with performers - the administrative burden consumes valuable time better spent on artistic direction."
             iconColor="theme-accent-text"
             bgColor="bg-accent-light"
             borderColor="border-gray-200"
@@ -79,7 +79,7 @@ const HiddenCostsSection = () => {
             onClick={scrollToPropertyForm}
             className="text-base"
           >
-            Secure your rental income
+            Book Our Venue
             <MessageSquare size={18} className="ml-2" />
           </Button>
         </div>
