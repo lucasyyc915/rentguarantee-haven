@@ -12,7 +12,6 @@ const GuaranteeSection = lazy(() => import("@/components/GuaranteeSection"));
 const HiddenCostsSection = lazy(() => import("@/components/HiddenCostsSection"));
 const PackagesSection = lazy(() => import("@/components/PackagesSection"));
 const FAQSection = lazy(() => import("@/components/faq/FAQSection"));
-const ROICalculator = lazy(() => import("@/components/ROICalculator"));
 const Testimonials = lazy(() => import("@/components/Testimonials"));
 const CallToAction = lazy(() => import("@/components/CallToAction"));
 
@@ -66,12 +65,6 @@ const Index = () => {
         <ErrorBoundary fallback={<SectionErrorFallback sectionName="How It Works" />}>
           <Suspense fallback={<SectionLoader />}>
             <HowItWorks />
-          </Suspense>
-        </ErrorBoundary>
-        
-        <ErrorBoundary fallback={<SectionErrorFallback sectionName="ROI Calculator" />}>
-          <Suspense fallback={<SectionLoader />}>
-            <ROICalculator />
           </Suspense>
         </ErrorBoundary>
         

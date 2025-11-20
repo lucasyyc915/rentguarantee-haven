@@ -18,11 +18,11 @@ const StandardPackage = ({
   return (
     <div className="border border-gray-200 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow bg-gray-50">
       <PackageHeader
-        title="Standard Property Management"
-        description="Professional management without income guarantees"
-        price="5%"
-        pricePeriod="of monthly rent"
-        additionalInfo="+ standard brokerage (one month's rent)"
+        title="Essential Theater Package"
+        description="Perfect for smaller productions and independent performers"
+        price="₹1,50,000"
+        pricePeriod="per event (3 nights)"
+        additionalInfo="Basic technical support included"
       />
       
       <div className="p-6">

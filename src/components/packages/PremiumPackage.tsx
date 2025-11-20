@@ -23,15 +23,15 @@ const PremiumPackage = ({
       
       {/* Social proof stat - moved to top left */}
       <div className="absolute top-0 left-0 bg-blue-100 text-blue-800 py-1 px-3 rounded-br-lg text-xs font-medium">
-        Chosen by 80% of our landlords
+        Chosen by 75% of productions
       </div>
       
       <PackageHeader
-        title="Premium Guaranteed"
-        description="Full management with income and vacancy guarantees"
-        price="9%"
-        pricePeriod="of monthly rent"
-        additionalInfo="+ preferred brokerage (50% of one month's rent)"
+        title="Complete Production Package"
+        description="Full-service package with professional technical crew"
+        price="₹2,50,000"
+        pricePeriod="per event (3 nights)"
+        additionalInfo="All technical services and rehearsal time included"
       />
       
       <div className="p-6">

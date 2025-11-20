@@ -1,89 +1,89 @@
 
 export const standardFeatures = [
   {
-    text: "Property inspections",
-    tooltip: "Regular inspections to ensure property condition is maintained"
+    text: "500-seat auditorium access",
+    tooltip: "Full access to our main theater space with professional seating"
   },
   {
-    text: "Maintenance coordination",
-    tooltip: "We handle all maintenance requests and coordinate with service providers"
+    text: "Basic lighting setup",
+    tooltip: "Standard stage lighting configuration for your performance"
   },
   {
-    text: "Monthly financial reporting",
-    tooltip: null
+    text: "Sound system included",
+    tooltip: "Professional PA system with basic audio support"
   },
   {
-    text: "Tenant communication",
-    tooltip: null
+    text: "Event coordination",
+    tooltip: "Staff support for ticketing and audience management"
   },
 ];
 
 export const premiumFeatures = [
   {
-    text: "Guaranteed on-time rent payments",
-    tooltip: "You'll receive your rent payment on the same day each month, regardless of when the tenant pays"
+    text: "Advanced lighting design",
+    tooltip: "Custom lighting design with intelligent fixtures and effects"
   },
   {
-    text: "Maximum 15 days vacancy per year",
-    tooltip: "We guarantee your property won't remain vacant for more than 15 days per year, or we cover the rent"
+    text: "Professional sound engineer",
+    tooltip: "Dedicated audio engineer for your entire production run"
   },
   {
-    text: "Zero default risk protection",
-    tooltip: "You'll never lose money due to tenant default - we assume 100% of this risk"
+    text: "Stage technician on-site",
+    tooltip: "Experienced stage crew for setup, show, and breakdown"
   },
   {
-    text: "Annual rent advance option",
-    tooltip: null
+    text: "3 days rehearsal access",
+    tooltip: "Complimentary rehearsal time in the main theater"
   },
   {
-    text: "Property damage coverage",
-    tooltip: "Coverage for tenant-caused damages beyond the security deposit"
+    text: "Dressing room facilities",
+    tooltip: "Private dressing rooms with amenities for your cast"
   },
   {
-    text: "Enhanced maintenance service",
-    tooltip: null
+    text: "Marketing support",
+    tooltip: "Featured promotion on our website and social channels"
   },
   {
-    text: "Annual deep cleaning included",
-    tooltip: null
+    text: "Recording setup available",
+    tooltip: "Professional recording equipment setup option"
   },
   {
-    text: "24/7 emergency response team",
-    tooltip: null
+    text: "Priority booking dates",
+    tooltip: "First access to premium weekend and holiday slots"
   },
 ];
 
 export const missingFeatures = [
   {
-    text: "Guaranteed rent payments",
-    tooltip: "Not included - you only receive rent when tenants pay"
+    text: "Custom lighting design",
+    tooltip: "Not included - standard lighting setup only"
   },
   {
-    text: "Vacancy protection",
-    tooltip: "Not included - you bear the full cost of vacancy periods"
+    text: "Dedicated sound engineer",
+    tooltip: "Not included - basic audio support only"
   },
   {
-    text: "Default risk protection",
-    tooltip: "Not included - you bear all risk from tenant defaults"
+    text: "Stage technician",
+    tooltip: "Not included - self-managed technical setup"
   },
   {
-    text: "Annual rent advance option",
-    tooltip: "Not available with standard package"
+    text: "Rehearsal time",
+    tooltip: "Not included in base package"
   },
   {
-    text: "Comprehensive damage protection",
-    tooltip: "Not included - only covered by tenant security deposit"
+    text: "Dressing room access",
+    tooltip: "Limited backstage facilities only"
   },
   {
-    text: "Enhanced maintenance service",
-    tooltip: "Only basic service included"
+    text: "Marketing promotion",
+    tooltip: "Not included in essential package"
   },
   {
-    text: "Annual deep cleaning",
-    tooltip: "Not included in standard package"
+    text: "Recording setup",
+    tooltip: "Not available with this package"
   },
   {
-    text: "24/7 emergency response",
-    tooltip: "Limited emergency response only"
+    text: "Priority booking",
+    tooltip: "Standard booking availability only"
   },
 ];

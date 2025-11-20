@@ -35,13 +35,13 @@ const Footer = () => {
             <Link to="/" className="flex items-center text-2xl font-bold theme-primary-text gap-1">
               <img 
                 src="/lovable-uploads/7b314dd5-c766-4046-8e2f-02a35e9e67c2.png" 
-                alt="Propico Logo" 
+                alt="Stage Center Logo" 
                 className="h-8 w-12"
               />
-              Propico
+              Stage Center
             </Link>
             <p className="text-foreground/70 max-w-xs">
-              Transforming the rental experience for property owners across India.
+              Professional theater venue for memorable performing arts experiences.
             </p>
             <div className="flex space-x-4">
               {socialIcons.map((item) => (
@@ -62,9 +62,9 @@ const Footer = () => {
                   About Us
                 </Link>
               </li>
-              <FooterLink href="#guarantee" onClick={() => scrollToSection('triple-guarantee')}>Our Guarantee</FooterLink>
+              <FooterLink href="#guarantee" onClick={() => scrollToSection('triple-guarantee')}>Our Services</FooterLink>
               <FooterLink href="#how-it-works" onClick={() => scrollToSection('how-it-works')}>How It Works</FooterLink>
-              <FooterLink href="#packages" onClick={() => scrollToSection('packages')}>Pricing</FooterLink>
+              <FooterLink href="#packages" onClick={() => scrollToSection('packages')}>Packages</FooterLink>
               <FooterLink href="#faq" onClick={() => scrollToSection('faq')}>FAQ</FooterLink>
               <li>
                 <Link 
@@ -90,7 +90,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-foreground/70">
           <div className="mb-4 md:mb-0">
-            © {currentYear} Propico. All rights reserved.
+            © {currentYear} Stage Center. All rights reserved.
           </div>
           
           <div className="flex flex-wrap justify-center gap-6">

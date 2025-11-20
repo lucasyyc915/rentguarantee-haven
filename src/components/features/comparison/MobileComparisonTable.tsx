@@ -21,44 +21,44 @@ const MobileComparisonTable = () => {
             <div className="divide-y divide-gray-200">
               <MobileFeatureRow 
                 icon={<CreditCard className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Income during vacancies" 
-                value="Guaranteed full payment"
+                feature="Full technical package included" 
+                value="Lighting, sound, and technical staff"
                 isPropico={true}
                 isBetterValue={true} />
               <MobileFeatureRow 
                 icon={<Shield className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Financial risk bearer" 
-                value="Propico takes all risk"
+                feature="Professional technical staff" 
+                value="Expert technicians included"
                 isPropico={true}
                 isBetterValue={true} />
               <MobileFeatureRow 
                 icon={<Clock className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Owner time required" 
-                value="<1 hour monthly"
+                feature="Setup and coordination time" 
+                value="<2 hours, handled by us"
                 isPropico={true}
                 isBetterValue={true} />
               <MobileFeatureRow 
                 icon={<Home className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Property Condition" 
-                value="Propico guarantee"
+                feature="Rehearsal space access" 
+                value="Complimentary included"
                 isPropico={true}
                 isBetterValue={true} />
               <MobileFeatureRow 
                 icon={<DollarSign className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Payment reliability" 
-                value="Fixed date, every month"
+                feature="Sound system quality" 
+                value="Professional concert-grade"
                 isPropico={true}
                 isBetterValue={true} />
               <MobileFeatureRow 
                 icon={<Users className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Tenant Screening" 
-                value="Comprehensive"
+                feature="Seating capacity" 
+                value="500 seats"
                 isPropico={true}
                 isBetterValue={true} />
               <MobileFeatureRow 
                 icon={<BarChart className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Annual net returns*" 
-                value="5.4L"
+                feature="Overall value per event*" 
+                value="₹2.5L all-inclusive"
                 isPropico={true}
                 isBetterValue={true} />
             </div>
@@ -73,44 +73,44 @@ const MobileComparisonTable = () => {
             <div className="divide-y divide-gray-200">
               <MobileFeatureRow 
                 icon={<CreditCard className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Income during vacancies" 
-                value="No income"
+                feature="Full technical package included" 
+                value="Equipment rental extra"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Shield className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Financial risk bearer" 
-                value="Owner takes all risks"
+                feature="Professional technical staff" 
+                value="Basic support only"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Clock className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Owner time required" 
-                value="3-5 hours"
+                feature="Setup and coordination time" 
+                value="4-6 hours"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Home className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Property Condition" 
-                value="No guarantee"
+                feature="Rehearsal space access" 
+                value="Additional fee"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<DollarSign className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Payment reliability" 
-                value="Depends on tenant"
+                feature="Sound system quality" 
+                value="Standard PA system"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Users className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Tenant Screening" 
-                value="Basic checks"
+                feature="Seating capacity" 
+                value="200-300 seats"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<BarChart className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Annual net returns*" 
-                value="2.7L"
+                feature="Overall value per event*" 
+                value="₹3.5L+ (venue + equipment)"
                 isPropico={false}
                 isBetterValue={false} />
             </div>
@@ -125,44 +125,44 @@ const MobileComparisonTable = () => {
             <div className="divide-y divide-gray-200">
               <MobileFeatureRow 
                 icon={<CreditCard className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Income during vacancies" 
-                value="No income"
+                feature="Full technical package included" 
+                value="DIY or hire separately"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Shield className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Financial risk bearer" 
-                value="Owner takes all risks"
+                feature="Professional technical staff" 
+                value="Handle yourself"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Clock className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Owner time required" 
-                value="6-8 hours"
+                feature="Setup and coordination time" 
+                value="8-12 hours"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Home className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Property Condition" 
-                value="No protection"
+                feature="Rehearsal space access" 
+                value="Limited or none"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<DollarSign className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Payment reliability" 
-                value="Depends on tenant"
+                feature="Sound system quality" 
+                value="Basic or rental"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<Users className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Tenant Screening" 
-                value="Limited"
+                feature="Seating capacity" 
+                value="Varies"
                 isPropico={false}
                 isBetterValue={false} />
               <MobileFeatureRow 
                 icon={<BarChart className="w-5 h-5 text-[#ff6b6b]" />} 
-                feature="Annual net returns*" 
-                value="3.1L"
+                feature="Overall value per event*" 
+                value="₹4L+ (all separate)"
                 isPropico={false}
                 isBetterValue={false} />
             </div>

@@ -25,30 +25,30 @@ const PropertyOwnersLove = () => {
   const benefits = [
     {
       number: 1,
-      title: "Financial Security",
-      description: "Your rental income is guaranteed every month, regardless of vacancies or tenant payment issues"
+      title: "Professional Setup",
+      description: "State-of-the-art lighting, sound, and stage equipment handled by expert technicians"
     },
     {
       number: 2,
-      title: "Peace of Mind",
-      description: "We assume all the risks and responsibilities while you enjoy truly passive income"
+      title: "Focus on Performance",
+      description: "Our technical crew manages everything so you can concentrate on your art"
     },
     {
       number: 3,
-      title: "Property Protection",
-      description: "Your investment is professionally managed and returned to you in its original condition"
+      title: "Flexible Packages",
+      description: "Customizable rental options with rehearsal time and technical support included"
     },
     {
       number: 4,
-      title: "Time Freedom",
-      description: "We give you your time back to enjoy on things that truly matter"
+      title: "Prime Location",
+      description: "500-seat capacity with excellent acoustics and convenient access for your audience"
     }
   ];
 
   return (
     <div className="rounded-xl border border-gray-200 p-8">
       <h3 className="text-2xl font-bold text-[var(--theme-primary)] mb-8">
-        Why do property owners <span className="text-[var(--theme-accent)]">love</span> Propico
+        Why do performers <span className="text-[var(--theme-accent)]">love</span> Stage Center
       </h3>
       
       <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">

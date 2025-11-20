@@ -15,7 +15,7 @@ const ComparisonTable = () => {
         <div className="h-1 w-20 bg-[var(--theme-accent)] rounded-full mx-auto mt-4"></div>
         {/* Subtitle */}
         <p className="mt-4 text-xl">
-          The Propico <span className="text-[#ff6b6b]">advantage</span> over traditional alternatives
+          The Stage Center <span className="text-[#ff6b6b]">advantage</span> over other venues
         </p>
       </div>
 
