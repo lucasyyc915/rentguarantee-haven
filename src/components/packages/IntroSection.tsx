@@ -6,12 +6,12 @@ const IntroSection = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="flex items-center justify-center md:justify-end border-b md:border-b-0 md:border-r border-gray-200 pb-4 md:pb-0 md:pr-6">
             <p className="text-lg text-gray-700">
-              Choose the service level that best fits your property investment strategy.
+              Choose the package that best fits your production needs and budget.
             </p>
           </div>
           <div className="flex items-center md:pl-6">
             <p className="text-lg text-gray-700">
-              Both packages include tenant screening, placement, rent collection, online owner portal and legal compliance assistance.
+              All packages include venue access, basic amenities, and event coordination support.
             </p>
           </div>
         </div>

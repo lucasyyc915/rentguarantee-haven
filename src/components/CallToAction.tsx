@@ -34,9 +34,9 @@ const CallToAction = () => {
             
             <div className="relative z-10 p-8 md:p-10">
               <div className="text-center mb-6">
-                <h2 className="text-3xl md:text-4xl font-bold theme-primary-text mb-4">Ready to Maximize Your Rental Income?</h2>
+                <h2 className="text-3xl md:text-4xl font-bold theme-primary-text mb-4">Ready to Book Your Event?</h2>
                 <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
-                  Join thousands of satisfied landlords who have transformed their rental experience.
+                  Join hundreds of successful performances at our world-class theater venue.
                 </p>
                 <div className="section-divider mx-auto mt-6"></div>
               </div>
@@ -44,23 +44,23 @@ const CallToAction = () => {
               <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
                 <BenefitCard 
                   icon={Shield}
-                  title="Financial Security"
-                  description="100% rent guarantee with zero default risk"
+                  title="Professional Equipment"
+                  description="State-of-the-art lighting and sound systems included"
                 />
                 <BenefitCard 
                   icon={Building}
-                  title="Property Value"
-                  description="Regular maintenance and annual refreshing"
+                  title="Prime Location"
+                  description="500-seat capacity with excellent acoustics"
                 />
                 <BenefitCard 
                   icon={Wrench}
-                  title="Professional Management"
-                  description="Premium tenant screening and property care"
+                  title="Expert Support"
+                  description="Professional technicians and stage managers on-site"
                 />
                 <BenefitCard 
                   icon={Heart}
-                  title="Peace of Mind"
-                  description="Zero involvement with 24/7 emergency support"
+                  title="Flexible Packages"
+                  description="Customizable booking options with rehearsal time included"
                 />
               </div>
               
@@ -70,10 +70,10 @@ const CallToAction = () => {
                   variant="accent"
                   onClick={scrollToPropertyForm}
                 >
-                  List Your Property Today
+                  Book the Venue Today
                   <ArrowRight size={20} className="ml-2 transition-transform group-hover:translate-x-1" />
                 </Button>
-                <p className="mt-4 text-sm text-foreground/60">No obligations. <span className="theme-accent-text font-medium">Free property evaluation.</span></p>
+                <p className="mt-4 text-sm text-foreground/60">No obligations. <span className="theme-accent-text font-medium">Free venue consultation.</span></p>
               </div>
             </div>
           </div>
