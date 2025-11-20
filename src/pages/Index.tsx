@@ -12,7 +12,6 @@ const HiddenCostsSection = lazy(() => import("@/components/HiddenCostsSection"))
 const PackagesSection = lazy(() => import("@/components/PackagesSection"));
 const FAQSection = lazy(() => import("@/components/faq/FAQSection"));
 const Testimonials = lazy(() => import("@/components/Testimonials"));
-const CallToAction = lazy(() => import("@/components/CallToAction"));
 
 // Optimized loading component
 const SectionLoader = () => (
@@ -78,14 +77,6 @@ const Index = () => {
             <FAQSection />
           </Suspense>
         </ErrorBoundary>
-        
-        <div id="property-inquiry-form">
-          <ErrorBoundary fallback={<SectionErrorFallback sectionName="Contact Form" />}>
-            <Suspense fallback={<SectionLoader />}>
-              <CallToAction />
-            </Suspense>
-          </ErrorBoundary>
-        </div>
         
         <Footer />
       </div>
