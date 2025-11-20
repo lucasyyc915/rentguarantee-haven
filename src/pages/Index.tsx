@@ -6,7 +6,6 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import ErrorBoundary from "@/components/performance/ErrorBoundary";
 
 // Lazy-loaded components with better chunk names
-const Features = lazy(() => import("@/components/Features"));
 const HowItWorks = lazy(() => import("@/components/HowItWorks"));
 const GuaranteeSection = lazy(() => import("@/components/GuaranteeSection"));
 const HiddenCostsSection = lazy(() => import("@/components/HiddenCostsSection"));
@@ -53,12 +52,6 @@ const Index = () => {
         <ErrorBoundary fallback={<SectionErrorFallback sectionName="Guarantee" />}>
           <Suspense fallback={<SectionLoader />}>
             <GuaranteeSection />
-          </Suspense>
-        </ErrorBoundary>
-        
-        <ErrorBoundary fallback={<SectionErrorFallback sectionName="Features" />}>
-          <Suspense fallback={<SectionLoader />}>
-            <Features />
           </Suspense>
         </ErrorBoundary>
         
