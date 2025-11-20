@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import PropertyInquiryFormHorizontal from "./PropertyInquiryFormHorizontal";
 import { Link } from "react-router-dom";
+import victorianTheatre from "@/assets/victorian-theatre-exterior.jpg";
 
 const ValuePropositions = memo(() => (
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-24 mb-6">
@@ -136,12 +137,12 @@ const Hero = () => {
             <div className="relative z-10">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60" 
-                  alt="Modern property for landlords" 
+                  src={victorianTheatre} 
+                  alt="Beautiful Victorian theatre exterior at Stage Center" 
                   className="w-full h-auto object-cover"
                   loading="lazy"
-                  width="600"
-                  height="400"
+                  width="800"
+                  height="450"
                   decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
